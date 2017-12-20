@@ -1,0 +1,81 @@
+/*alterando alguns comportamento quando estiver com tamanho do media queries*/
+@media screen and (min-width: 950px){
+
+	.espaco{
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 640px){
+
+	.pesquisa{
+	width: 95%;
+	}
+
+	.secao-form button{
+	margin-left: 30%;
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 620px){
+
+		
+	.secao-destaque img{
+		width: 95%;
+		max-width:300px;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+}
+
+
+@media screen and (max-width: 600px){
+	
+	.rodape p {
+		margin-left: 10%;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 766px){
+	
+	.texto-indisponivel{
+	background: red;
+	max-width: 120px;
+	font-size: 1.5em;
+	margin-top: 2%;
+	color: white;
+	margin-left: 1%;
+	position: absolute;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

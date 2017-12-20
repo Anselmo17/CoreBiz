@@ -1,0 +1,34 @@
+Olá Anselmo, segue o teste que comentei:
+
+Importante: link do arquivo:
+www.corebiz.com.br/corebiz_avaliacao.zip
+
+Passo 1: Transformar o PSD em HTML (utilizando CSS e JS onde necessário)
+
+Passo 2: No fim da página, existe um form simples de contato. Ao clicar em enviar, esse form precisa ser disparado via javascript para a API abaixo (utilizando post):
+
+	URL:
+	http://api.vtexcrm.com.br/corebiz/dataentities/TE/documents
+
+	CAMPOS:
+	name - varchar (para Nome)
+	email - Email (para Email)
+	notice - varchar (para Mensagem)
+	phone - telephone (para Celular)
+
+Essa é uma api direto da plataforma Vtex, o retorno de sucesso é um id.
+
+Iremos avaliar:
+- A criação do html da página
+- A criação do formulário da página
+- A forma de escrever o script
+- O sucesso no envio das informações.
+
+Se houver algum problema, procure o Leandro em cópia.
+-- 
+Renan Mota
+COO & Partner
+
+T. (11) 3090-1039 / (11) 98102-2620
+SP: Avenida Cauaxi, 350, 9 andar - Alphaville
+www.corebiz.com.br
